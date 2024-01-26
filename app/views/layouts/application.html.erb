@@ -5,14 +5,13 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_include_tag "application", "data-turbo-track": "reload", type: "module" %>
-
     <%# Google Font %>
-    <style>@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300&display=swap');</style>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300&display=swap');
+    </style>
   </head>
-
   <body>
     <%= yield %>
   </body>
